@@ -1,0 +1,2 @@
+# TestBle
+这里简单地 将babybluetouth应用在oc以及swift3.0工程里面，因为没有参考babybluetouth是否有新的swift的版本，因此只是对原oc版本做了桥接处理。
