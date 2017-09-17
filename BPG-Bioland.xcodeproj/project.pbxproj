@@ -7,15 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46256A4D1D5EEA5400FD4FAE /* BPGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46256A4C1D5EEA5400FD4FAE /* BPGModel.swift */; };
+		46256A6E1D5F00F100FD4FAE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 46256A521D5F00F100FD4FAE /* LICENSE */; };
+		46256A6F1D5F00F100FD4FAE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A541D5F00F100FD4FAE /* MBProgressHUD.m */; };
+		46256A701D5F00F100FD4FAE /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 46256A551D5F00F100FD4FAE /* README.mdown */; };
+		46256A711D5F00F100FD4FAE /* NSBundle+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A571D5F00F100FD4FAE /* NSBundle+SSToolkitAdditions.m */; };
+		46256A721D5F00F100FD4FAE /* NSDate+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A591D5F00F100FD4FAE /* NSDate+SSToolkitAdditions.m */; };
+		46256A731D5F00F100FD4FAE /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A5C1D5F00F100FD4FAE /* BabyBluetooth.m */; };
+		46256A741D5F00F100FD4FAE /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A5E1D5F00F100FD4FAE /* BabyCallback.m */; };
+		46256A751D5F00F100FD4FAE /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A601D5F00F100FD4FAE /* BabyCentralManager.m */; };
+		46256A761D5F00F100FD4FAE /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A621D5F00F100FD4FAE /* BabyDefine.m */; };
+		46256A771D5F00F100FD4FAE /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A641D5F00F100FD4FAE /* BabyOptions.m */; };
+		46256A781D5F00F100FD4FAE /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A661D5F00F100FD4FAE /* BabyPeripheralManager.m */; };
+		46256A791D5F00F100FD4FAE /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A681D5F00F100FD4FAE /* BabyRhythm.m */; };
+		46256A7A1D5F00F100FD4FAE /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A6A1D5F00F100FD4FAE /* BabySpeaker.m */; };
+		46256A7B1D5F00F100FD4FAE /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46256A6C1D5F00F100FD4FAE /* BabyToy.m */; };
+		466A4EAF1D5C88730050347F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 466A4EAB1D5C88730050347F /* LICENSE */; };
+		466A4EB01D5C88730050347F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 466A4EAD1D5C88730050347F /* MBProgressHUD.m */; };
+		466A4EB11D5C88730050347F /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 466A4EAE1D5C88730050347F /* README.mdown */; };
 		4687B90C1D5ACFF500C30A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B90B1D5ACFF500C30A9F /* main.m */; };
 		4687B90F1D5ACFF500C30A9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B90E1D5ACFF500C30A9F /* AppDelegate.m */; };
 		4687B9121D5ACFF500C30A9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B9111D5ACFF500C30A9F /* ViewController.m */; };
 		4687B9151D5ACFF500C30A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4687B9131D5ACFF500C30A9F /* Main.storyboard */; };
 		4687B9171D5ACFF500C30A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4687B9161D5ACFF500C30A9F /* Assets.xcassets */; };
 		4687B91A1D5ACFF500C30A9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4687B9181D5ACFF500C30A9F /* LaunchScreen.storyboard */; };
+		4687B9241D5AD0FD00C30A9F /* BPGProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B9231D5AD0FD00C30A9F /* BPGProtocol.m */; };
+		4687B93B1D5B174700C30A9F /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B92A1D5B174700C30A9F /* BabyBluetooth.m */; };
+		4687B93C1D5B174700C30A9F /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B92C1D5B174700C30A9F /* BabyCallback.m */; };
+		4687B93D1D5B174700C30A9F /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B92E1D5B174700C30A9F /* BabyCentralManager.m */; };
+		4687B93E1D5B174700C30A9F /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B9301D5B174700C30A9F /* BabyDefine.m */; };
+		4687B93F1D5B174700C30A9F /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B9321D5B174700C30A9F /* BabyOptions.m */; };
+		4687B9401D5B174700C30A9F /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B9341D5B174700C30A9F /* BabyPeripheralManager.m */; };
+		4687B9411D5B174700C30A9F /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B9361D5B174700C30A9F /* BabyRhythm.m */; };
+		4687B9421D5B174700C30A9F /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B9381D5B174700C30A9F /* BabySpeaker.m */; };
+		4687B9431D5B174700C30A9F /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687B93A1D5B174700C30A9F /* BabyToy.m */; };
+		46C57E931D5D551700087F04 /* NSDate+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C57E921D5D551700087F04 /* NSDate+SSToolkitAdditions.m */; };
+		46C57E961D5D574500087F04 /* NSBundle+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C57E951D5D574500087F04 /* NSBundle+SSToolkitAdditions.m */; };
+		46C57EB91D5D976900087F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C57EB81D5D976900087F04 /* AppDelegate.swift */; };
+		46C57EBB1D5D976900087F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C57EBA1D5D976900087F04 /* ViewController.swift */; };
+		46C57EBE1D5D976900087F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C57EBC1D5D976900087F04 /* Main.storyboard */; };
+		46C57EC01D5D976900087F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C57EBF1D5D976900087F04 /* Assets.xcassets */; };
+		46C57EC31D5D976900087F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C57EC11D5D976900087F04 /* LaunchScreen.storyboard */; };
+		46C57ECB1D5D9C4F00087F04 /* BPGProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C57ECA1D5D9C4F00087F04 /* BPGProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46256A4C1D5EEA5400FD4FAE /* BPGModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPGModel.swift; sourceTree = "<group>"; };
+		46256A521D5F00F100FD4FAE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46256A531D5F00F100FD4FAE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		46256A541D5F00F100FD4FAE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		46256A551D5F00F100FD4FAE /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		46256A561D5F00F100FD4FAE /* NSBundle+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		46256A571D5F00F100FD4FAE /* NSBundle+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		46256A581D5F00F100FD4FAE /* NSDate+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		46256A591D5F00F100FD4FAE /* NSDate+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		46256A5B1D5F00F100FD4FAE /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		46256A5C1D5F00F100FD4FAE /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		46256A5D1D5F00F100FD4FAE /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		46256A5E1D5F00F100FD4FAE /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		46256A5F1D5F00F100FD4FAE /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		46256A601D5F00F100FD4FAE /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		46256A611D5F00F100FD4FAE /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		46256A621D5F00F100FD4FAE /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		46256A631D5F00F100FD4FAE /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		46256A641D5F00F100FD4FAE /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		46256A651D5F00F100FD4FAE /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		46256A661D5F00F100FD4FAE /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		46256A671D5F00F100FD4FAE /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		46256A681D5F00F100FD4FAE /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		46256A691D5F00F100FD4FAE /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		46256A6A1D5F00F100FD4FAE /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		46256A6B1D5F00F100FD4FAE /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		46256A6C1D5F00F100FD4FAE /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		466A4EAB1D5C88730050347F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		466A4EAC1D5C88730050347F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		466A4EAD1D5C88730050347F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		466A4EAE1D5C88730050347F /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
 		4687B9071D5ACFF500C30A9F /* BPG-Bioland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BPG-Bioland.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4687B90B1D5ACFF500C30A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4687B90D1D5ACFF500C30A9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +93,41 @@
 		4687B9161D5ACFF500C30A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4687B9191D5ACFF500C30A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4687B91B1D5ACFF500C30A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4687B9221D5AD0FD00C30A9F /* BPGProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPGProtocol.h; sourceTree = "<group>"; };
+		4687B9231D5AD0FD00C30A9F /* BPGProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGProtocol.m; sourceTree = "<group>"; };
+		4687B9291D5B174700C30A9F /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		4687B92A1D5B174700C30A9F /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		4687B92B1D5B174700C30A9F /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		4687B92C1D5B174700C30A9F /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		4687B92D1D5B174700C30A9F /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		4687B92E1D5B174700C30A9F /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		4687B92F1D5B174700C30A9F /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		4687B9301D5B174700C30A9F /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		4687B9311D5B174700C30A9F /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		4687B9321D5B174700C30A9F /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		4687B9331D5B174700C30A9F /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		4687B9341D5B174700C30A9F /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		4687B9351D5B174700C30A9F /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		4687B9361D5B174700C30A9F /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		4687B9371D5B174700C30A9F /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		4687B9381D5B174700C30A9F /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		4687B9391D5B174700C30A9F /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		4687B93A1D5B174700C30A9F /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		46C57E911D5D551700087F04 /* NSDate+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		46C57E921D5D551700087F04 /* NSDate+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		46C57E941D5D574500087F04 /* NSBundle+SSToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SSToolkitAdditions.h"; sourceTree = "<group>"; };
+		46C57E951D5D574500087F04 /* NSBundle+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SSToolkitAdditions.m"; sourceTree = "<group>"; };
+		46C57E9B1D5D971900087F04 /* BPGBioland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPGBioland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C57EB61D5D976900087F04 /* BPGBiolands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPGBiolands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C57EB81D5D976900087F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46C57EBA1D5D976900087F04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46C57EBD1D5D976900087F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46C57EBF1D5D976900087F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46C57EC21D5D976900087F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46C57EC41D5D976900087F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C57ECA1D5D9C4F00087F04 /* BPGProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPGProtocol.swift; sourceTree = "<group>"; };
+		46C57ECC1D5DA62100087F04 /* BPGBiolands-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPGBiolands-Swift.h"; sourceTree = "<group>"; };
+		46C57ECD1D5DA6B100087F04 /* BPGBiolands-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPGBiolands-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,13 +138,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46C57E981D5D971900087F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C57EB31D5D976900087F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46256A4E1D5F00F100FD4FAE /* BPGBLE */ = {
+			isa = PBXGroup;
+			children = (
+				46256A511D5F00F100FD4FAE /* MBProgressHUD */,
+				46256A561D5F00F100FD4FAE /* NSBundle+SSToolkitAdditions.h */,
+				46256A571D5F00F100FD4FAE /* NSBundle+SSToolkitAdditions.m */,
+				46256A581D5F00F100FD4FAE /* NSDate+SSToolkitAdditions.h */,
+				46256A591D5F00F100FD4FAE /* NSDate+SSToolkitAdditions.m */,
+				46256A5A1D5F00F100FD4FAE /* objc */,
+			);
+			path = BPGBLE;
+			sourceTree = "<group>";
+		};
+		46256A511D5F00F100FD4FAE /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				46256A521D5F00F100FD4FAE /* LICENSE */,
+				46256A531D5F00F100FD4FAE /* MBProgressHUD.h */,
+				46256A541D5F00F100FD4FAE /* MBProgressHUD.m */,
+				46256A551D5F00F100FD4FAE /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		46256A5A1D5F00F100FD4FAE /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				46256A5B1D5F00F100FD4FAE /* BabyBluetooth.h */,
+				46256A5C1D5F00F100FD4FAE /* BabyBluetooth.m */,
+				46256A5D1D5F00F100FD4FAE /* BabyCallback.h */,
+				46256A5E1D5F00F100FD4FAE /* BabyCallback.m */,
+				46256A5F1D5F00F100FD4FAE /* BabyCentralManager.h */,
+				46256A601D5F00F100FD4FAE /* BabyCentralManager.m */,
+				46256A611D5F00F100FD4FAE /* BabyDefine.h */,
+				46256A621D5F00F100FD4FAE /* BabyDefine.m */,
+				46256A631D5F00F100FD4FAE /* BabyOptions.h */,
+				46256A641D5F00F100FD4FAE /* BabyOptions.m */,
+				46256A651D5F00F100FD4FAE /* BabyPeripheralManager.h */,
+				46256A661D5F00F100FD4FAE /* BabyPeripheralManager.m */,
+				46256A671D5F00F100FD4FAE /* BabyRhythm.h */,
+				46256A681D5F00F100FD4FAE /* BabyRhythm.m */,
+				46256A691D5F00F100FD4FAE /* BabySpeaker.h */,
+				46256A6A1D5F00F100FD4FAE /* BabySpeaker.m */,
+				46256A6B1D5F00F100FD4FAE /* BabyToy.h */,
+				46256A6C1D5F00F100FD4FAE /* BabyToy.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		466A4EAA1D5C88730050347F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				466A4EAB1D5C88730050347F /* LICENSE */,
+				466A4EAC1D5C88730050347F /* MBProgressHUD.h */,
+				466A4EAD1D5C88730050347F /* MBProgressHUD.m */,
+				466A4EAE1D5C88730050347F /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		4687B8FE1D5ACFF500C30A9F = {
 			isa = PBXGroup;
 			children = (
 				4687B9091D5ACFF500C30A9F /* BPG-Bioland */,
+				46C57EB71D5D976900087F04 /* BPGBiolands */,
 				4687B9081D5ACFF500C30A9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				4687B9071D5ACFF500C30A9F /* BPG-Bioland.app */,
+				46C57E9B1D5D971900087F04 /* BPGBioland.app */,
+				46C57EB61D5D976900087F04 /* BPGBiolands.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +237,7 @@
 		4687B9091D5ACFF500C30A9F /* BPG-Bioland */ = {
 			isa = PBXGroup;
 			children = (
+				4687B9211D5AD06600C30A9F /* BPGBLE */,
 				4687B90D1D5ACFF500C30A9F /* AppDelegate.h */,
 				4687B90E1D5ACFF500C30A9F /* AppDelegate.m */,
 				4687B9101D5ACFF500C30A9F /* ViewController.h */,
@@ -77,6 +257,64 @@
 				4687B90B1D5ACFF500C30A9F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4687B9211D5AD06600C30A9F /* BPGBLE */ = {
+			isa = PBXGroup;
+			children = (
+				46C57E941D5D574500087F04 /* NSBundle+SSToolkitAdditions.h */,
+				46C57E951D5D574500087F04 /* NSBundle+SSToolkitAdditions.m */,
+				46C57E911D5D551700087F04 /* NSDate+SSToolkitAdditions.h */,
+				46C57E921D5D551700087F04 /* NSDate+SSToolkitAdditions.m */,
+				466A4EAA1D5C88730050347F /* MBProgressHUD */,
+				4687B9281D5B174700C30A9F /* objc */,
+				4687B9221D5AD0FD00C30A9F /* BPGProtocol.h */,
+				4687B9231D5AD0FD00C30A9F /* BPGProtocol.m */,
+			);
+			path = BPGBLE;
+			sourceTree = "<group>";
+		};
+		4687B9281D5B174700C30A9F /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				4687B9291D5B174700C30A9F /* BabyBluetooth.h */,
+				4687B92A1D5B174700C30A9F /* BabyBluetooth.m */,
+				4687B92B1D5B174700C30A9F /* BabyCallback.h */,
+				4687B92C1D5B174700C30A9F /* BabyCallback.m */,
+				4687B92D1D5B174700C30A9F /* BabyCentralManager.h */,
+				4687B92E1D5B174700C30A9F /* BabyCentralManager.m */,
+				4687B92F1D5B174700C30A9F /* BabyDefine.h */,
+				4687B9301D5B174700C30A9F /* BabyDefine.m */,
+				4687B9311D5B174700C30A9F /* BabyOptions.h */,
+				4687B9321D5B174700C30A9F /* BabyOptions.m */,
+				4687B9331D5B174700C30A9F /* BabyPeripheralManager.h */,
+				4687B9341D5B174700C30A9F /* BabyPeripheralManager.m */,
+				4687B9351D5B174700C30A9F /* BabyRhythm.h */,
+				4687B9361D5B174700C30A9F /* BabyRhythm.m */,
+				4687B9371D5B174700C30A9F /* BabySpeaker.h */,
+				4687B9381D5B174700C30A9F /* BabySpeaker.m */,
+				4687B9391D5B174700C30A9F /* BabyToy.h */,
+				4687B93A1D5B174700C30A9F /* BabyToy.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		46C57EB71D5D976900087F04 /* BPGBiolands */ = {
+			isa = PBXGroup;
+			children = (
+				46256A4E1D5F00F100FD4FAE /* BPGBLE */,
+				46C57EB81D5D976900087F04 /* AppDelegate.swift */,
+				46C57EBA1D5D976900087F04 /* ViewController.swift */,
+				46C57EBC1D5D976900087F04 /* Main.storyboard */,
+				46C57EBF1D5D976900087F04 /* Assets.xcassets */,
+				46C57EC11D5D976900087F04 /* LaunchScreen.storyboard */,
+				46C57EC41D5D976900087F04 /* Info.plist */,
+				46C57ECA1D5D9C4F00087F04 /* BPGProtocol.swift */,
+				46C57ECC1D5DA62100087F04 /* BPGBiolands-Swift.h */,
+				46C57ECD1D5DA6B100087F04 /* BPGBiolands-Bridging-Header.h */,
+				46256A4C1D5EEA5400FD4FAE /* BPGModel.swift */,
+			);
+			path = BPGBiolands;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,17 +337,61 @@
 			productReference = 4687B9071D5ACFF500C30A9F /* BPG-Bioland.app */;
 			productType = "com.apple.product-type.application";
 		};
+		46C57E9A1D5D971900087F04 /* BPGBioland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C57EB11D5D971900087F04 /* Build configuration list for PBXNativeTarget "BPGBioland" */;
+			buildPhases = (
+				46C57E971D5D971900087F04 /* Sources */,
+				46C57E981D5D971900087F04 /* Frameworks */,
+				46C57E991D5D971900087F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BPGBioland;
+			productName = BPGBioland;
+			productReference = 46C57E9B1D5D971900087F04 /* BPGBioland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46C57EB51D5D976900087F04 /* BPGBiolands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C57EC51D5D976900087F04 /* Build configuration list for PBXNativeTarget "BPGBiolands" */;
+			buildPhases = (
+				46C57EB21D5D976900087F04 /* Sources */,
+				46C57EB31D5D976900087F04 /* Frameworks */,
+				46C57EB41D5D976900087F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BPGBiolands;
+			productName = BPGBiolands;
+			productReference = 46C57EB61D5D976900087F04 /* BPGBiolands.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4687B8FF1D5ACFF500C30A9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = starlueng;
 				TargetAttributes = {
 					4687B9061D5ACFF500C30A9F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6YSZ3PALNH;
+					};
+					46C57E9A1D5D971900087F04 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6YSZ3PALNH;
+					};
+					46C57EB51D5D976900087F04 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6YSZ3PALNH;
 					};
 				};
 			};
@@ -127,6 +409,8 @@
 			projectRoot = "";
 			targets = (
 				4687B9061D5ACFF500C30A9F /* BPG-Bioland */,
+				46C57E9A1D5D971900087F04 /* BPGBioland */,
+				46C57EB51D5D976900087F04 /* BPGBiolands */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +422,26 @@
 			files = (
 				4687B91A1D5ACFF500C30A9F /* LaunchScreen.storyboard in Resources */,
 				4687B9171D5ACFF500C30A9F /* Assets.xcassets in Resources */,
+				466A4EAF1D5C88730050347F /* LICENSE in Resources */,
 				4687B9151D5ACFF500C30A9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C57E991D5D971900087F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C57EB41D5D976900087F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C57EC31D5D976900087F04 /* LaunchScreen.storyboard in Resources */,
+				46C57EC01D5D976900087F04 /* Assets.xcassets in Resources */,
+				46256A6E1D5F00F100FD4FAE /* LICENSE in Resources */,
+				46C57EBE1D5D976900087F04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +452,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4687B93E1D5B174700C30A9F /* BabyDefine.m in Sources */,
 				4687B9121D5ACFF500C30A9F /* ViewController.m in Sources */,
+				4687B93B1D5B174700C30A9F /* BabyBluetooth.m in Sources */,
 				4687B90F1D5ACFF500C30A9F /* AppDelegate.m in Sources */,
 				4687B90C1D5ACFF500C30A9F /* main.m in Sources */,
+				4687B9401D5B174700C30A9F /* BabyPeripheralManager.m in Sources */,
+				4687B93C1D5B174700C30A9F /* BabyCallback.m in Sources */,
+				4687B93D1D5B174700C30A9F /* BabyCentralManager.m in Sources */,
+				4687B93F1D5B174700C30A9F /* BabyOptions.m in Sources */,
+				466A4EB11D5C88730050347F /* README.mdown in Sources */,
+				4687B9421D5B174700C30A9F /* BabySpeaker.m in Sources */,
+				46C57E931D5D551700087F04 /* NSDate+SSToolkitAdditions.m in Sources */,
+				4687B9411D5B174700C30A9F /* BabyRhythm.m in Sources */,
+				46C57E961D5D574500087F04 /* NSBundle+SSToolkitAdditions.m in Sources */,
+				4687B9431D5B174700C30A9F /* BabyToy.m in Sources */,
+				4687B9241D5AD0FD00C30A9F /* BPGProtocol.m in Sources */,
+				466A4EB01D5C88730050347F /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C57E971D5D971900087F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C57EB21D5D976900087F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C57EBB1D5D976900087F04 /* ViewController.swift in Sources */,
+				46256A7A1D5F00F100FD4FAE /* BabySpeaker.m in Sources */,
+				46256A791D5F00F100FD4FAE /* BabyRhythm.m in Sources */,
+				46256A711D5F00F100FD4FAE /* NSBundle+SSToolkitAdditions.m in Sources */,
+				46256A771D5F00F100FD4FAE /* BabyOptions.m in Sources */,
+				46256A6F1D5F00F100FD4FAE /* MBProgressHUD.m in Sources */,
+				46256A721D5F00F100FD4FAE /* NSDate+SSToolkitAdditions.m in Sources */,
+				46256A701D5F00F100FD4FAE /* README.mdown in Sources */,
+				46C57EB91D5D976900087F04 /* AppDelegate.swift in Sources */,
+				46256A761D5F00F100FD4FAE /* BabyDefine.m in Sources */,
+				46256A741D5F00F100FD4FAE /* BabyCallback.m in Sources */,
+				46256A731D5F00F100FD4FAE /* BabyBluetooth.m in Sources */,
+				46256A781D5F00F100FD4FAE /* BabyPeripheralManager.m in Sources */,
+				46256A751D5F00F100FD4FAE /* BabyCentralManager.m in Sources */,
+				46C57ECB1D5D9C4F00087F04 /* BPGProtocol.swift in Sources */,
+				46256A7B1D5F00F100FD4FAE /* BabyToy.m in Sources */,
+				46256A4D1D5EEA5400FD4FAE /* BPGModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +518,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				4687B9191D5ACFF500C30A9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		46C57EBC1D5D976900087F04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C57EBD1D5D976900087F04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46C57EC11D5D976900087F04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C57EC21D5D976900087F04 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -265,9 +629,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "BPG-Bioland/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.starlueng.BPG-Bioland";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlueng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -276,10 +642,71 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "BPG-Bioland/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.starlueng.BPG-Bioland";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlueng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46C57EAF1D5D971900087F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BPGBioland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlueng.BPGBioland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		46C57EB01D5D971900087F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BPGBioland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlueng.BPGBioland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		46C57EC61D5D976900087F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BPGBiolands/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlueng.BPGBiolands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SWIFT_MODULE_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46C57EC71D5D976900087F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BPGBiolands/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlueng.BPGBiolands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SWIFT_MODULE_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -302,6 +729,25 @@
 				4687B9201D5ACFF500C30A9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C57EB11D5D971900087F04 /* Build configuration list for PBXNativeTarget "BPGBioland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C57EAF1D5D971900087F04 /* Debug */,
+				46C57EB01D5D971900087F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C57EC51D5D976900087F04 /* Build configuration list for PBXNativeTarget "BPGBiolands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C57EC61D5D976900087F04 /* Debug */,
+				46C57EC71D5D976900087F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
